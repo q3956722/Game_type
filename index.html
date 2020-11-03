@@ -45,11 +45,14 @@
 
         <div role="main" class="ui-content">
             <h1>遊戲介紹從這裡開始..</h1>
-            <p>這裡介紹遊戲有哪些種類、開發軟體、開發軟體比較以及其遊戲名</p>
-            <a href="#page01">遊戲種類1</a>
-            <a href="#page02">遊戲種類2</a>
-            <a href="#page03">開發軟體</a>
-            <a href="#page04">開發軟體比較</a>
+            <p>這裡介紹遊戲有哪些種類、開發軟體、開發軟體比較以及其遊戲名</p>            
+            <ul data-role="listview" data-inset="true">
+                <li data-icon="info"><a href="#page01">遊戲種類1</a></li>
+                <li data-icon="info"><a href="#page02">遊戲種類2</a></li>
+                <li data-icon="info"><a href="#page03">開發軟體</a></li>
+                <li data-icon="info"><a href="#page04">開發軟體比較</a></li>
+            </ul>
+            
         </div><!-- /content -->
 
         <div data-role="footer" data-position="fixed" >
@@ -61,26 +64,39 @@
     </div><!-- /page -->
 
     <!-- 第一頁 -->
-    <div data-role="page" id="page01">
+    <div data-role="page" id="page01" >
 
         <div data-role="header">
-            <h1>遊戲種類</h1>
+            <h1>遊戲種類1</h1>
         </div><!-- /header -->
 
-        <div role="main" class="ui-content">
+        <div role="main" class="ui-content" data-role="collapsible">
             <h1>MMORPG</h1>
-            <p>大型多人線上角色扮演遊戲（Massively Multiplayer Online Role-Playing Games）為線上遊戲的一種。</p>            
-            <ul data-role="listview" data-inset="true">
-                <li><a href="#">天堂</a></li>
-                <li><a href="#">魔獸世界</a></li>
-                <li><a href="#">艾爾之光</a></li>
-            </ul>
+            <p>大型多人線上角色扮演遊戲（Massively Multiplayer Online Role-Playing Games）為線上遊戲的一種。</p>
+            <div data-role="collapsibleset" data-theme="a" data-content-theme="a" >
+                <div data-role="collapsible">
+                    <h3>天堂</h3>
+                <p>I'm the collapsible content for section 1</p>
+                </div>
+                <div data-role="collapsible">
+                    <h3>魔獸世界</h3>
+                <p>I'm the collapsible content for section 2</p>
+                </div>
+                <div data-role="collapsible">
+                    <h3>艾爾之光</h3>
+                <p>I'm the collapsible content for section 3</p>
+                </div>
+            </div>                      
+        </div>       
+
+        <div role="main" class="ui-content">
             <a href="#page02">RPG</a>
             <a href="#page03">FPS</a>
             <a href="#page04">MUG</a>
             <br>
             <a href="#page00">回到 主頁面</a>
-        </div><!-- /content -->
+        </div>
+        <!-- /content -->
 
         <div data-role="footer" data-position="fixed" >
 
@@ -94,7 +110,7 @@
     <div data-role="page" id="page02">
 
         <div data-role="header">
-            <h1>遊戲種類</h1>
+            <h1>遊戲種類2</h1>
         </div><!-- /header -->
 
         <div role="main" class="ui-content">
@@ -124,7 +140,7 @@
     <div data-role="page" id="page03">
 
         <div data-role="header">
-            <h1>遊戲種類</h1>
+            <h1>開發軟體</h1>
         </div><!-- /header -->
 
         <div role="main" class="ui-content">
@@ -154,7 +170,7 @@
     <div data-role="page" id="page04">
 
         <div data-role="header">
-            <h1>遊戲種類</h1>
+            <h1>開發軟體比較</h1>
         </div><!-- /header -->
 
         <div role="main" class="ui-content">
