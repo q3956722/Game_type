@@ -40,194 +40,286 @@
     <!-- 主頁面 -->
     <div data-role="page" id="page00">
 
-        <div data-role="header">
-            <h1>遊戲介紹</h1>
-            <a href="#page00" class="ui-btn ui-icon-home ui-btn-icon-notext ui-btn-corner-all">home</a>
-        </div><!-- /header -->
+        <section>
+            <div data-role="header">
+                <h1>遊戲介紹</h1>
+                <a href="#page00" class="ui-btn ui-icon-home ui-btn-icon-notext ui-btn-corner-all">home</a>
+            </div>
+        </section>
+        <!-- /header -->
+        <section>
+            <div role="main" class="ui-content">
+                <h1>遊戲介紹從這裡開始..</h1>
+                <p>這裡介紹遊戲有哪些種類、開發軟體、開發軟體比較以及其遊戲名</p>            
+                <div role="main" class="ui-content" data-role="collapsible">
+                    <h1>遊戲種類1</h1>
+                    <ul data-role="listview" data-inset="true">
+                        <li data-icon="info"><a href="#page01">ACT</a></li>
+                        <li data-icon="info"><a href="#page01">RPG</a></li>
+                        <li data-icon="info"><a href="#page01">AVG</a></li>
+                        <li data-icon="info"><a href="#page01">RTS</a></li>
+                        <li data-icon="info"><a href="#page01">SLG</a></li>
+                    </ul>
+                </div>
+                <div role="main" class="ui-content" data-role="collapsible">
+                    <h1>遊戲種類2</h1>
+                    <ul data-role="listview" data-inset="true">
+                        <li data-icon="info"><a href="#page02">STG</a></li>
+                        <li data-icon="info"><a href="#page02">SPG</a></li>
+                        <li data-icon="info"><a href="#page02">PZG</a></li>
+                        <li data-icon="info"><a href="#page02">RCG</a></li>
+                        <li data-icon="info"><a href="#page02">FTG</a></li>
+                        <li data-icon="info"><a href="#page02">MUG</a></li>
+                    </ul>
+                </div>
+                <div role="main" class="ui-content" data-role="collapsible">
+                    <h1>開發軟體介紹</h1>
+                    <ul data-role="listview" data-inset="true">
+                        <li data-icon="info"><a href="#page03">遊戲種類1</a></li>
+                        <li data-icon="info"><a href="#page03">遊戲種類1</a></li>
+                        <li data-icon="info"><a href="#page03">遊戲種類1</a></li>
+                        <li data-icon="info"><a href="#page03">遊戲種類1</a></li>
+                        <li data-icon="info"><a href="#page03">遊戲種類1</a></li>
+                    </ul>
+                </div>
+                <div role="main" class="ui-content" data-role="collapsible">
+                    <h1>開發軟體比較</h1>
+                    <ul data-role="listview" data-inset="true">
+                        <li data-icon="info"><a href="#page04">遊戲種類1</a></li>
+                        <li data-icon="info"><a href="#page04">遊戲種類1</a></li>
+                        <li data-icon="info"><a href="#page04">遊戲種類1</a></li>
+                        <li data-icon="info"><a href="#page04">遊戲種類1</a></li>
+                        <li data-icon="info"><a href="#page04">遊戲種類1</a></li>
+                    </ul>
+                </div>
+                
+                <div data-role="navbar">
+                    <ul>
+                        <li><a href="#page01" data-icon="bullets">遊戲種類1</a></li>
+                        <li><a href="#page02" data-icon="bullets">遊戲種類2</a></li>                    
+                    </ul>
+                </div>
+                <div data-role="navbar">
+                    <ul>
+                        <li><a href="#page03" data-icon="bullets">開發軟體介紹</a></li>
+                        <li><a href="#page04" data-icon="bullets" data-transition="slidedown">開發軟體比較</a></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <!-- /content -->
 
-        <div role="main" class="ui-content">
-            <h1>遊戲介紹從這裡開始..</h1>
-            <p>這裡介紹遊戲有哪些種類、開發軟體、開發軟體比較以及其遊戲名</p>            
-            <div role="main" class="ui-content" data-role="collapsible">
-                <h1>遊戲種類1</h1>
-                <ul data-role="listview" data-inset="true">
-                    <li data-icon="info"><a href="#page01">ACT</a></li>
-                    <li data-icon="info"><a href="#page01">RPG</a></li>
-                    <li data-icon="info"><a href="#page01">AVG</a></li>
-                    <li data-icon="info"><a href="#page01">RTS</a></li>
-                    <li data-icon="info"><a href="#page01">SLG</a></li>
-                </ul>
-            </div>
-            <div role="main" class="ui-content" data-role="collapsible">
-                <h1>遊戲種類2</h1>
-                <ul data-role="listview" data-inset="true">
-                    <li data-icon="info"><a href="#page02">STG</a></li>
-                    <li data-icon="info"><a href="#page02">SPG</a></li>
-                    <li data-icon="info"><a href="#page02">PZG</a></li>
-                    <li data-icon="info"><a href="#page02">RCG</a></li>
-                    <li data-icon="info"><a href="#page02">FTG</a></li>
-                    <li data-icon="info"><a href="#page02">MUG</a></li>
-                </ul>
-            </div>
-            <div role="main" class="ui-content" data-role="collapsible">
-                <h1>開發軟體介紹</h1>
-                <ul data-role="listview" data-inset="true">
-                    <li data-icon="info"><a href="#page03">遊戲種類1</a></li>
-                    <li data-icon="info"><a href="#page03">遊戲種類1</a></li>
-                    <li data-icon="info"><a href="#page03">遊戲種類1</a></li>
-                    <li data-icon="info"><a href="#page03">遊戲種類1</a></li>
-                    <li data-icon="info"><a href="#page03">遊戲種類1</a></li>
-                </ul>
-            </div>
-            <div role="main" class="ui-content" data-role="collapsible">
-                <h1>開發軟體比較</h1>
-                <ul data-role="listview" data-inset="true">
-                    <li data-icon="info"><a href="#page04">遊戲種類1</a></li>
-                    <li data-icon="info"><a href="#page04">遊戲種類1</a></li>
-                    <li data-icon="info"><a href="#page04">遊戲種類1</a></li>
-                    <li data-icon="info"><a href="#page04">遊戲種類1</a></li>
-                    <li data-icon="info"><a href="#page04">遊戲種類1</a></li>
-                </ul>
-            </div>
-            
-            <div data-role="navbar">
-                <ul>
-                    <li><a href="#page01" data-icon="bullets">遊戲種類1</a></li>
-                    <li><a href="#page02" data-icon="bullets">遊戲種類2</a></li>                    
-                </ul>
-            </div>
-            <div data-role="navbar">
-                <ul>
-                    <li><a href="#page03" data-icon="bullets">開發軟體介紹</a></li>
-                    <li><a href="#page04" data-icon="bullets" data-transition="slidedown">開發軟體比較</a></li>
-                </ul>
-            </div>
-        </div><!-- /content -->
+        <section>
+            <div data-role="footer" data-position="fixed" >
 
-        <div data-role="footer" data-position="fixed" >
+                <h4>Copyright &copy; 2020
+                    <br>
+                    1108211029@wenzao DCAM
+                </h4>
 
-            <h4>Copyright &copy; 2020
-                <br>
-                1108211029@wenzao DCAM
-            </h4>
-
-        </div><!-- /footer -->
+            </div>
+        </section>
+        <!-- /footer -->
 
     </div><!-- /page -->
 
     <!-- 第一頁 -->
     <div data-role="page" id="page01" >
 
-        <div data-role="header">
-            <h1>遊戲種類1</h1>
-            <a href="#page00" class="ui-btn ui-icon-home ui-btn-icon-notext ui-btn-corner-all">home</a>
-        </div><!-- /header -->
+        <section>
+            <div data-role="header">
+                <h1>遊戲種類1</h1>
+                <a href="#page00" class="ui-btn ui-icon-home ui-btn-icon-notext ui-btn-corner-all">home</a>
+            </div>
+        </section>
+        <!-- /header -->
 
-        <div role="main" class="ui-content" data-role="collapsible">
-            <h1>ACT</h1>
-            <h3>動作遊戲（Action Game)</h3>
-            <p>強調玩家的反應能力和手眼的配合。動作遊戲的劇情一般比較簡單，主要是通過熟悉操作技巧就可以進行遊戲。這類遊戲一般比較有刺激性，情節緊張，聲光效果豐富。</p>
-            <div data-role="collapsibleset" data-theme="a" data-content-theme="a" >
-                <div data-role="collapsible">
-                    <h3>超級瑪利</h3>
-                <p>I'm the collapsible content for section 1</p>
-                </div>
-                <div data-role="collapsible">
-                    <h3>洛克人</h3>
-                <p>I'm the collapsible content for section 2</p>
-                </div>
-                <div data-role="collapsible">
-                    <h3>越南大戰</h3>
-                <p>I'm the collapsible content for section 3</p>
-                </div>
-            </div>                      
-        </div>
-        <!-- ACT -->
-        <div role="main" class="ui-content" data-role="collapsible">
-            <h1>RPG</h1>
-            <h3>RPG(角色扮演遊戲)</h3>
-            <p>遊戲中玩家將控制一個角色或是幾個冒險隊伍成員，同時通過完成一系列任務或到達主線劇情的結局來取得勝利。玩家在探索遊戲世界時需要解決謎題並進行戰術型戰鬥。這類遊戲的一個關鍵特性是角色的力量和能力會成長，同時玩家可以規劃角色成長。</p>
-            <div data-role="collapsibleset" data-theme="a" data-content-theme="a" >
-                <div data-role="collapsible">
-                    <h1>RPG</h1>
-                    <h3>RPG(角色扮演遊戲)</h3>
-                    <p>遊戲中玩家將控制一個角色或是幾個冒險隊伍成員，同時通過完成一系列任務或到達主線劇情的結局來取得勝利。玩家在探索遊戲世界時需要解決謎題並進行戰術型戰鬥。這類遊戲的一個關鍵特性是角色的力量和能力會成長，同時玩家可以規劃角色成長。</p>
+        <section>
+            <div role="main" class="ui-content" data-role="collapsible">
+                <h1>ACT</h1>
+                <h3>動作遊戲（Action Game)</h3>
+                <p>強調玩家的反應能力和手眼的配合。動作遊戲的劇情一般比較簡單，主要是通過熟悉操作技巧就可以進行遊戲。這類遊戲一般比較有刺激性，情節緊張，聲光效果豐富。</p>
+                <div data-role="collapsibleset" data-theme="a" data-content-theme="a" >
                     <div data-role="collapsible">
-                        <h3>Undertale</h3>
+                        <h3>超級瑪利</h3>
                     <p>I'm the collapsible content for section 1</p>
                     </div>
                     <div data-role="collapsible">
-                        <h3>最終幻想系列</h3>
+                        <h3>洛克人</h3>
                     <p>I'm the collapsible content for section 2</p>
                     </div>
                     <div data-role="collapsible">
-                        <h3>勇者鬥惡龍系列</h3>
+                        <h3>越南大戰</h3>
                     <p>I'm the collapsible content for section 3</p>
                     </div>
-                </div>
-                <div data-role="collapsible">
-                    <h1>ARPG</h1>
-                    <h3>動作角色扮演遊戲（Action Role-Playing Game)</h3>
-                    <p>相較於角色扮演，多了對於戰鬥場景的動作性處理（非選項式戰術，考慮到操作時差等的處理）、解決隱藏謎題或機關的冒險遊戲要素等。同時具備動作遊戲與角色扮演遊戲要素，要求戰鬥場景的及時處理、角色成長概念的遊戲。</p>
+                </div>                      
+            </div>
+            <!-- ACT -->
+            <div role="main" class="ui-content" data-role="collapsible">
+                <h1>RPG</h1>
+                <h3>RPG(角色扮演遊戲)</h3>
+                <p>遊戲中玩家將控制一個角色或是幾個冒險隊伍成員，同時通過完成一系列任務或到達主線劇情的結局來取得勝利。玩家在探索遊戲世界時需要解決謎題並進行戰術型戰鬥。這類遊戲的一個關鍵特性是角色的力量和能力會成長，同時玩家可以規劃角色成長。</p>
+                <div data-role="collapsibleset" data-theme="a" data-content-theme="a" >
                     <div data-role="collapsible">
-                        <h3>魔物獵人</h3>
-                    <p>I'm the collapsible content for section 1</p>
+                        <h1>RPG</h1>
+                        <h3>RPG(角色扮演遊戲)</h3>
+                        <p>遊戲中玩家將控制一個角色或是幾個冒險隊伍成員，同時通過完成一系列任務或到達主線劇情的結局來取得勝利。玩家在探索遊戲世界時需要解決謎題並進行戰術型戰鬥。這類遊戲的一個關鍵特性是角色的力量和能力會成長，同時玩家可以規劃角色成長。</p>
+                        <div data-role="collapsible">
+                            <h3>Undertale</h3>
+                        <p>I'm the collapsible content for section 1</p>
+                        </div>
+                        <div data-role="collapsible">
+                            <h3>最終幻想系列</h3>
+                        <p>I'm the collapsible content for section 2</p>
+                        </div>
+                        <div data-role="collapsible">
+                            <h3>勇者鬥惡龍系列</h3>
+                        <p>I'm the collapsible content for section 3</p>
+                        </div>
                     </div>
                     <div data-role="collapsible">
-                        <h3>暗黑破壞神系列</h3>
-                    <p>I'm the collapsible content for section 2</p>
+                        <h1>ARPG</h1>
+                        <h3>動作角色扮演遊戲（Action Role-Playing Game)</h3>
+                        <p>相較於角色扮演，多了對於戰鬥場景的動作性處理（非選項式戰術，考慮到操作時差等的處理）、解決隱藏謎題或機關的冒險遊戲要素等。同時具備動作遊戲與角色扮演遊戲要素，要求戰鬥場景的及時處理、角色成長概念的遊戲。</p>
+                        <div data-role="collapsible">
+                            <h3>魔物獵人</h3>
+                        <p>I'm the collapsible content for section 1</p>
+                        </div>
+                        <div data-role="collapsible">
+                            <h3>暗黑破壞神系列</h3>
+                        <p>I'm the collapsible content for section 2</p>
+                        </div>
+                        <div data-role="collapsible">
+                            <h3>傳說系列</h3>
+                        <p>I'm the collapsible content for section 3</p>
+                        </div>
                     </div>
                     <div data-role="collapsible">
-                        <h3>傳說系列</h3>
-                    <p>I'm the collapsible content for section 3</p>
-                    </div>
-                </div>
-                <div data-role="collapsible">
-                    <h1>SRPG</h1>
-                    <h3>戰略角色扮演遊戲（Strategy Role-Playing Game）</h3>
-                    <p>最大特性在於戰鬥系統中擁有類似戰略遊戲的遊戲方式，以及具有類似角色扮演遊戲的劇情推演及人物成長。</p>
-                    <div data-role="collapsible">
-                        <h3>魔界戰記</h3>
-                    <p>I'm the collapsible content for section 1</p>
-                    </div>
-                    <div data-role="collapsible">
-                        <h3>聖火降魔錄</h3>
-                    <p>I'm the collapsible content for section 2</p>
-                    </div>
-                    <div data-role="collapsible">
-                        <h3>召喚圖板</h3>
-                    <p>I'm the collapsible content for section 3</p>
-                    </div>
-                </div>
-                <div data-role="collapsible">
-                    <h1>MMORPG</h1>
-                    <h3>大型多人線上角色扮演遊戲（Massively Multiplayer Online Role-Playing Game)</h3>
-                    <p>I'm the collapsible content for section 3</p>
-                    <div data-role="collapsible">
-                        <h3>天堂</h3>
-                    <p>I'm the collapsible content for section 1</p>
+                        <h1>SRPG</h1>
+                        <h3>戰略角色扮演遊戲（Strategy Role-Playing Game）</h3>
+                        <p>最大特性在於戰鬥系統中擁有類似戰略遊戲的遊戲方式，以及具有類似角色扮演遊戲的劇情推演及人物成長。</p>
+                        <div data-role="collapsible">
+                            <h3>魔界戰記</h3>
+                        <p>I'm the collapsible content for section 1</p>
+                        </div>
+                        <div data-role="collapsible">
+                            <h3>聖火降魔錄</h3>
+                        <p>I'm the collapsible content for section 2</p>
+                        </div>
+                        <div data-role="collapsible">
+                            <h3>召喚圖板</h3>
+                        <p>I'm the collapsible content for section 3</p>
+                        </div>
                     </div>
                     <div data-role="collapsible">
-                        <h3>魔獸世界</h3>
-                    <p>I'm the collapsible content for section 2</p>
+                        <h1>MMORPG</h1>
+                        <h3>大型多人線上角色扮演遊戲（Massively Multiplayer Online Role-Playing Game)</h3>
+                        <p>I'm the collapsible content for section 3</p>
+                        <div data-role="collapsible">
+                            <h3>天堂</h3>
+                        <p>I'm the collapsible content for section 1</p>
+                        </div>
+                        <div data-role="collapsible">
+                            <h3>魔獸世界</h3>
+                        <p>I'm the collapsible content for section 2</p>
+                        </div>
+                        <div data-role="collapsible">
+                            <h3>艾爾之光</h3>
+                        <p>I'm the collapsible content for section 3</p>
+                        </div>
+                    </div>
+                </div>                      
+            </div>
+            <!-- RPG -->
+            <div role="main" class="ui-content" data-role="collapsible">
+                <h1>AVG</h1>
+                <h3>冒險遊戲（Adventure Game)</h3>
+                <p>遊戲採取玩家輸入或選擇指令以改變行動的形式。強調故事線索的發掘及故事劇情，主要考驗玩家的觀察力和分析能力。</p>
+                <div data-role="collapsibleset" data-theme="a" data-content-theme="a" >
+                    <div data-role="collapsible">
+                        <h1>AVG</h1>
+                        <h3>冒險遊戲（Adventure Game)</h3>
+                        <p>遊戲採取玩家輸入或選擇指令以改變行動的形式。強調故事線索的發掘及故事劇情，主要考驗玩家的觀察力和分析能力。</p>
+                        <div data-role="collapsible">
+                            <h3>遊戲一</h3>
+                        <p>I'm the collapsible content for section 1</p>
+                        </div>
+                        <div data-role="collapsible">
+                            <h3>遊戲二</h3>
+                        <p>I'm the collapsible content for section 2</p>
+                        </div>
+                        <div data-role="collapsible">
+                            <h3>遊戲三</h3>
+                        <p>I'm the collapsible content for section 3</p>
+                        </div>
                     </div>
                     <div data-role="collapsible">
-                        <h3>艾爾之光</h3>
-                    <p>I'm the collapsible content for section 3</p>
+                        <h1>AAVG</h1>
+                        <h3>動作冒險遊戲（Action-Adventure Game)</h3>
+                        <p>是冒險遊戲的分支，它融合了動作遊戲的一些特徵。遊戲過程中玩家除了需要探索找到遊戲過關的關鍵物品，通過各種各樣的險要的地形之外，還可能需要與遊戲中的其他角色進行戰鬥。</p>
+                        <div data-role="collapsible">
+                            <h3>遊戲一</h3>
+                        <p>I'm the collapsible content for section 1</p>
+                        </div>
+                        <div data-role="collapsible">
+                            <h3>遊戲二</h3>
+                        <p>I'm the collapsible content for section 2</p>
+                        </div>
+                        <div data-role="collapsible">
+                            <h3>遊戲三</h3>
+                        <p>I'm the collapsible content for section 3</p>
+                        </div>
+                    </div>                
+                </div>                      
+            </div>
+            <!-- AVG -->
+            <div role="main" class="ui-content" data-role="collapsible">
+                <h1>RTS</h1>
+                <h3>即時戰略遊戲（英語：Real-time Strategy Game)</h3>
+                <p>遊戲的過程是即時進行而不是採用回合制。通常，標準的即時戰略遊戲會有資源採集、基地建造、科技發展等元素。在玩家指揮方面，即時戰略遊戲通常可以獨立控制各個單位，而不限於群組式的控制。</p>
+                <div data-role="collapsibleset" data-theme="a" data-content-theme="a" >
+                    <div data-role="collapsible">
+                        <h1>RTS</h1>
+                        <h3>即時戰略遊戲（英語：Real-time Strategy Game)</h3>
+                        <p>遊戲的過程是即時進行而不是採用回合制。通常，標準的即時戰略遊戲會有資源採集、基地建造、科技發展等元素。在玩家指揮方面，即時戰略遊戲通常可以獨立控制各個單位，而不限於群組式的控制。</p>
+                        <div data-role="collapsible">
+                            <h3>遊戲一</h3>
+                        <p>I'm the collapsible content for section 1</p>
+                        </div>
+                        <div data-role="collapsible">
+                            <h3>遊戲二</h3>
+                        <p>I'm the collapsible content for section 2</p>
+                        </div>
+                        <div data-role="collapsible">
+                            <h3>遊戲三</h3>
+                        <p>I'm the collapsible content for section 3</p>
+                        </div>
                     </div>
-                </div>
-            </div>                      
-        </div>
-        <!-- RPG -->
-        <div role="main" class="ui-content" data-role="collapsible">
-            <h1>AVG</h1>
-            <h3>冒險遊戲（Adventure Game)</h3>
-            <p>遊戲採取玩家輸入或選擇指令以改變行動的形式。強調故事線索的發掘及故事劇情，主要考驗玩家的觀察力和分析能力。</p>
-            <div data-role="collapsibleset" data-theme="a" data-content-theme="a" >
-                <div data-role="collapsible">
-                    <h1>AVG</h1>
-                    <h3>冒險遊戲（Adventure Game)</h3>
-                    <p>遊戲採取玩家輸入或選擇指令以改變行動的形式。強調故事線索的發掘及故事劇情，主要考驗玩家的觀察力和分析能力。</p>
+                    <div data-role="collapsible">
+                        <h1>MOBA</h1>
+                        <h3>多人線上戰術擂台（Multiplayer Online Battle Arena）</h3>
+                        <p>又可定義為動作即時戰略遊戲（ARTS，Action Real-Time Strategy）玩家被分為兩隊，通常每個玩家只能控制其中一隊中的一名角色，以打垮對方隊伍的陣地建築為勝利條件。</p>
+                        <div data-role="collapsible">
+                            <h3>遊戲一</h3>
+                        <p>I'm the collapsible content for section 1</p>
+                        </div>
+                        <div data-role="collapsible">
+                            <h3>遊戲二</h3>
+                        <p>I'm the collapsible content for section 2</p>
+                        </div>
+                        <div data-role="collapsible">
+                            <h3>遊戲三</h3>
+                        <p>I'm the collapsible content for section 3</p>
+                        </div>
+                    </div>                
+                </div>                      
+            </div>
+            <!-- RTS -->
+            <div role="main" class="ui-content" data-role="collapsible">
+                <h1>SLG</h1>
+                <h3>模擬遊戲（Simulation Game）</h3>
+                <p>以電腦模擬真實世界當中的環境與事件，提供玩者一個近似於現實生活當中可能發生的情境的遊戲，都可以稱作模擬遊戲。</p>
+                <div data-role="collapsibleset" data-theme="a" data-content-theme="a" >
                     <div data-role="collapsible">
                         <h3>遊戲一</h3>
                     <p>I'm the collapsible content for section 1</p>
@@ -240,127 +332,111 @@
                         <h3>遊戲三</h3>
                     <p>I'm the collapsible content for section 3</p>
                     </div>
-                </div>
-                <div data-role="collapsible">
-                    <h1>AAVG</h1>
-                    <h3>動作冒險遊戲（Action-Adventure Game)</h3>
-                    <p>是冒險遊戲的分支，它融合了動作遊戲的一些特徵。遊戲過程中玩家除了需要探索找到遊戲過關的關鍵物品，通過各種各樣的險要的地形之外，還可能需要與遊戲中的其他角色進行戰鬥。</p>
-                    <div data-role="collapsible">
-                        <h3>遊戲一</h3>
-                    <p>I'm the collapsible content for section 1</p>
-                    </div>
-                    <div data-role="collapsible">
-                        <h3>遊戲二</h3>
-                    <p>I'm the collapsible content for section 2</p>
-                    </div>
-                    <div data-role="collapsible">
-                        <h3>遊戲三</h3>
-                    <p>I'm the collapsible content for section 3</p>
-                    </div>
-                </div>                
-            </div>                      
-        </div>
-        <!-- AVG -->
-        <div role="main" class="ui-content" data-role="collapsible">
-            <h1>RTS</h1>
-            <h3>即時戰略遊戲（英語：Real-time Strategy Game)</h3>
-            <p>遊戲的過程是即時進行而不是採用回合制。通常，標準的即時戰略遊戲會有資源採集、基地建造、科技發展等元素。在玩家指揮方面，即時戰略遊戲通常可以獨立控制各個單位，而不限於群組式的控制。</p>
-            <div data-role="collapsibleset" data-theme="a" data-content-theme="a" >
-                <div data-role="collapsible">
-                    <h1>RTS</h1>
-                    <h3>即時戰略遊戲（英語：Real-time Strategy Game)</h3>
-                    <p>遊戲的過程是即時進行而不是採用回合制。通常，標準的即時戰略遊戲會有資源採集、基地建造、科技發展等元素。在玩家指揮方面，即時戰略遊戲通常可以獨立控制各個單位，而不限於群組式的控制。</p>
-                    <div data-role="collapsible">
-                        <h3>遊戲一</h3>
-                    <p>I'm the collapsible content for section 1</p>
-                    </div>
-                    <div data-role="collapsible">
-                        <h3>遊戲二</h3>
-                    <p>I'm the collapsible content for section 2</p>
-                    </div>
-                    <div data-role="collapsible">
-                        <h3>遊戲三</h3>
-                    <p>I'm the collapsible content for section 3</p>
-                    </div>
-                </div>
-                <div data-role="collapsible">
-                    <h1>MOBA</h1>
-                    <h3>多人線上戰術擂台（Multiplayer Online Battle Arena）</h3>
-                    <p>又可定義為動作即時戰略遊戲（ARTS，Action Real-Time Strategy）玩家被分為兩隊，通常每個玩家只能控制其中一隊中的一名角色，以打垮對方隊伍的陣地建築為勝利條件。</p>
-                    <div data-role="collapsible">
-                        <h3>遊戲一</h3>
-                    <p>I'm the collapsible content for section 1</p>
-                    </div>
-                    <div data-role="collapsible">
-                        <h3>遊戲二</h3>
-                    <p>I'm the collapsible content for section 2</p>
-                    </div>
-                    <div data-role="collapsible">
-                        <h3>遊戲三</h3>
-                    <p>I'm the collapsible content for section 3</p>
-                    </div>
-                </div>                
-            </div>                      
-        </div>
-        <!-- RTS -->
-        <div role="main" class="ui-content" data-role="collapsible">
-            <h1>SLG</h1>
-            <h3>模擬遊戲（Simulation Game）</h3>
-            <p>以電腦模擬真實世界當中的環境與事件，提供玩者一個近似於現實生活當中可能發生的情境的遊戲，都可以稱作模擬遊戲。</p>
-            <div data-role="collapsibleset" data-theme="a" data-content-theme="a" >
-                <div data-role="collapsible">
-                    <h3>遊戲一</h3>
-                <p>I'm the collapsible content for section 1</p>
-                </div>
-                <div data-role="collapsible">
-                    <h3>遊戲二</h3>
-                <p>I'm the collapsible content for section 2</p>
-                </div>
-                <div data-role="collapsible">
-                    <h3>遊戲三</h3>
-                <p>I'm the collapsible content for section 3</p>
-                </div>
-            </div>                      
-        </div>
-        <!-- SLG -->
+                </div>                      
+            </div>
+            <!-- SLG -->
 
-        <div role="main" class="ui-content">
-            <a href="#page02">遊戲種類2</a>
-            <a href="#page03">開發軟體介紹</a>
-            <a href="#page04">開發軟體比較</a>
-            <br>
-            <a href="#page00">回到 主頁面</a>
-        </div>
+            <div role="main" class="ui-content">
+                <a href="#page02">遊戲種類2</a>
+                <a href="#page03">開發軟體介紹</a>
+                <a href="#page04">開發軟體比較</a>
+                <br>
+                <a href="#page00">回到 主頁面</a>
+            </div>
+        </section>
+        
         <!-- /content -->
 
-        <div data-role="footer" data-position="fixed" >
+        <section>
+            <div data-role="footer" data-position="fixed" >
 
-            <h4>Copyright &copy; 2020
-                <br>
-                1108211029@wenzao DCAM
-            </h4>
+                <h4>Copyright &copy; 2020
+                    <br>
+                    1108211029@wenzao DCAM
+                </h4>
 
-        </div><!-- /footer -->
+            </div>
+        </section>
+        <!-- /footer -->
 
     </div><!-- /page -->
 
     <!-- 第二頁 -->
     <div data-role="page" id="page02">
 
-        <div data-role="header">
-            <h1>遊戲種類2</h1>
-            <a href="#page00" class="ui-btn ui-icon-home ui-btn-icon-notext ui-btn-corner-all">home</a>
-        </div><!-- /header -->
+        <section>
+            <div data-role="header">
+                <h1>遊戲種類2</h1>
+                <a href="#page00" class="ui-btn ui-icon-home ui-btn-icon-notext ui-btn-corner-all">home</a>
+            </div>
+        </section>
+        <!-- /header -->
 
-        <div role="main" class="ui-content" data-role="collapsible">
-            <h1>STG</h1>
-            <h3>射擊遊戲(Shooting Game)</h3>
-            <p>包括所有以射擊為主的電子遊戲，當中包括平面射擊遊戲、第一人稱射擊遊戲和第三人稱射擊遊戲等。</p>
-            <div data-role="collapsibleset" data-theme="a" data-content-theme="a" >
-                <div data-role="collapsible">
-                    <h1>STG</h1>
-                    <h3>射擊遊戲(Shooting Game)</h3>
-                    <p>包括所有以射擊為主的電子遊戲，當中包括平面射擊遊戲、第一人稱射擊遊戲和第三人稱射擊遊戲等。</p>
+        <section>
+            <div role="main" class="ui-content" data-role="collapsible">
+                <h1>STG</h1>
+                <h3>射擊遊戲(Shooting Game)</h3>
+                <p>包括所有以射擊為主的電子遊戲，當中包括平面射擊遊戲、第一人稱射擊遊戲和第三人稱射擊遊戲等。</p>
+                <div data-role="collapsibleset" data-theme="a" data-content-theme="a" >
+                    <div data-role="collapsible">
+                        <h1>STG</h1>
+                        <h3>射擊遊戲(Shooting Game)</h3>
+                        <p>包括所有以射擊為主的電子遊戲，當中包括平面射擊遊戲、第一人稱射擊遊戲和第三人稱射擊遊戲等。</p>
+                        <div data-role="collapsible">
+                            <h3>遊戲一</h3>
+                        <p>I'm the collapsible content for section 1</p>
+                        </div>
+                        <div data-role="collapsible">
+                            <h3>遊戲二</h3>
+                        <p>I'm the collapsible content for section 2</p>
+                        </div>
+                        <div data-role="collapsible">
+                            <h3>遊戲三</h3>
+                        <p>I'm the collapsible content for section 3</p>
+                        </div>
+                    </div>
+                    <div data-role="collapsible">
+                        <h1>FPS</h1>
+                        <h3>第一人稱射擊遊戲（First-Person Shooter)</h3>
+                        <p>以玩家的第一人稱視角為主視角進行的射擊類電子遊戲的總稱，通常需要使用槍械或其他武器進行戰鬥。玩家會直接從遊戲的主人公的眼中觀察周圍環境，並進行射擊、運動、對話等等活動。</p>
+                        <div data-role="collapsible">
+                            <h3>遊戲一</h3>
+                        <p>I'm the collapsible content for section 1</p>
+                        </div>
+                        <div data-role="collapsible">
+                            <h3>遊戲二</h3>
+                        <p>I'm the collapsible content for section 2</p>
+                        </div>
+                        <div data-role="collapsible">
+                            <h3>遊戲三</h3>
+                        <p>I'm the collapsible content for section 3</p>
+                        </div>
+                    </div>
+                    <div data-role="collapsible">
+                        <h1>TPS</h1>
+                        <h3>第三人稱射擊遊戲（英語：Third-Person Shooter)</h3>
+                        <p>與第一人稱的區別在於第一人稱的螢幕上顯示的只有主角的視野，而第三人稱射擊遊戲中主角的整個身姿在遊戲螢幕上是可見的，顯示的為主角附近的視角。這樣更有利於觀察角色的受傷情況和周圍事物，且可以觀察到掩體內部，以及周遭的彈道。</p>
+                        <div data-role="collapsible">
+                            <h3>遊戲一</h3>
+                        <p>I'm the collapsible content for section 1</p>
+                        </div>
+                        <div data-role="collapsible">
+                            <h3>遊戲二</h3>
+                        <p>I'm the collapsible content for section 2</p>
+                        </div>
+                        <div data-role="collapsible">
+                            <h3>遊戲三</h3>
+                        <p>I'm the collapsible content for section 3</p>
+                        </div>
+                    </div>                
+                </div>                      
+            </div>
+            <!-- STG -->
+            <div role="main" class="ui-content" data-role="collapsible">
+                <h1>SPG</h1>
+                <h3>運動遊戲（Sport Game）</h3>
+                <p>是一種讓玩家模擬參與專業的體育運動項目的電視遊戲或電腦遊戲。該遊戲類別的內容多數以較為人認識的體育賽事為藍本。</p>
+                <div data-role="collapsibleset" data-theme="a" data-content-theme="a" >
                     <div data-role="collapsible">
                         <h3>遊戲一</h3>
                     <p>I'm the collapsible content for section 1</p>
@@ -373,11 +449,14 @@
                         <h3>遊戲三</h3>
                     <p>I'm the collapsible content for section 3</p>
                     </div>
-                </div>
-                <div data-role="collapsible">
-                    <h1>FPS</h1>
-                    <h3>第一人稱射擊遊戲（First-Person Shooter)</h3>
-                    <p>以玩家的第一人稱視角為主視角進行的射擊類電子遊戲的總稱，通常需要使用槍械或其他武器進行戰鬥。玩家會直接從遊戲的主人公的眼中觀察周圍環境，並進行射擊、運動、對話等等活動。</p>
+                </div>                      
+            </div>
+            <!-- SPG -->
+            <div role="main" class="ui-content" data-role="collapsible">
+                <h1>PZG</h1>
+                <h3>益智遊戲（Puzzle Game）</h3>
+                <p>注重「解謎題」的智力遊戲。大多智力遊戲涉及用各種手段解決既定問題，也可能包含動作要素，要求心靈手巧。</p>
+                <div data-role="collapsibleset" data-theme="a" data-content-theme="a" >
                     <div data-role="collapsible">
                         <h3>遊戲一</h3>
                     <p>I'm the collapsible content for section 1</p>
@@ -390,11 +469,14 @@
                         <h3>遊戲三</h3>
                     <p>I'm the collapsible content for section 3</p>
                     </div>
-                </div>
-                <div data-role="collapsible">
-                    <h1>TPS</h1>
-                    <h3>第三人稱射擊遊戲（英語：Third-Person Shooter)</h3>
-                    <p>與第一人稱的區別在於第一人稱的螢幕上顯示的只有主角的視野，而第三人稱射擊遊戲中主角的整個身姿在遊戲螢幕上是可見的，顯示的為主角附近的視角。這樣更有利於觀察角色的受傷情況和周圍事物，且可以觀察到掩體內部，以及周遭的彈道。</p>
+                </div>                      
+            </div>
+            <!-- PZG -->
+            <div role="main" class="ui-content" data-role="collapsible">
+                <h1>RCG</h1>
+                <h3>競速遊戲（Racing Game）</h3>
+                <p>主要是以第一人稱或者第三人稱參與速度的競爭。競速遊戲可以包含賽車遊戲，還有一些非常規的飛行競速遊戲，科幻競速遊戲，特殊競速遊戲。</p>
+                <div data-role="collapsibleset" data-theme="a" data-content-theme="a" >
                     <div data-role="collapsible">
                         <h3>遊戲一</h3>
                     <p>I'm the collapsible content for section 1</p>
@@ -407,215 +489,196 @@
                         <h3>遊戲三</h3>
                     <p>I'm the collapsible content for section 3</p>
                     </div>
-                </div>                
-            </div>                      
-        </div>
-        <!-- STG -->
-        <div role="main" class="ui-content" data-role="collapsible">
-            <h1>SPG</h1>
-            <h3>運動遊戲（Sport Game）</h3>
-            <p>是一種讓玩家模擬參與專業的體育運動項目的電視遊戲或電腦遊戲。該遊戲類別的內容多數以較為人認識的體育賽事為藍本。</p>
-            <div data-role="collapsibleset" data-theme="a" data-content-theme="a" >
-                <div data-role="collapsible">
-                    <h3>遊戲一</h3>
-                <p>I'm the collapsible content for section 1</p>
-                </div>
-                <div data-role="collapsible">
-                    <h3>遊戲二</h3>
-                <p>I'm the collapsible content for section 2</p>
-                </div>
-                <div data-role="collapsible">
-                    <h3>遊戲三</h3>
-                <p>I'm the collapsible content for section 3</p>
-                </div>
-            </div>                      
-        </div>
-        <!-- SPG -->
-        <div role="main" class="ui-content" data-role="collapsible">
-            <h1>PZG</h1>
-            <h3>益智遊戲（Puzzle Game）</h3>
-            <p>注重「解謎題」的智力遊戲。大多智力遊戲涉及用各種手段解決既定問題，也可能包含動作要素，要求心靈手巧。</p>
-            <div data-role="collapsibleset" data-theme="a" data-content-theme="a" >
-                <div data-role="collapsible">
-                    <h3>遊戲一</h3>
-                <p>I'm the collapsible content for section 1</p>
-                </div>
-                <div data-role="collapsible">
-                    <h3>遊戲二</h3>
-                <p>I'm the collapsible content for section 2</p>
-                </div>
-                <div data-role="collapsible">
-                    <h3>遊戲三</h3>
-                <p>I'm the collapsible content for section 3</p>
-                </div>
-            </div>                      
-        </div>
-        <!-- PZG -->
-        <div role="main" class="ui-content" data-role="collapsible">
-            <h1>RCG</h1>
-            <h3>競速遊戲（Racing Game）</h3>
-            <p>主要是以第一人稱或者第三人稱參與速度的競爭。競速遊戲可以包含賽車遊戲，還有一些非常規的飛行競速遊戲，科幻競速遊戲，特殊競速遊戲。</p>
-            <div data-role="collapsibleset" data-theme="a" data-content-theme="a" >
-                <div data-role="collapsible">
-                    <h3>遊戲一</h3>
-                <p>I'm the collapsible content for section 1</p>
-                </div>
-                <div data-role="collapsible">
-                    <h3>遊戲二</h3>
-                <p>I'm the collapsible content for section 2</p>
-                </div>
-                <div data-role="collapsible">
-                    <h3>遊戲三</h3>
-                <p>I'm the collapsible content for section 3</p>
-                </div>
-            </div>                      
-        </div>
-        <!-- RCG -->
-        <div role="main" class="ui-content" data-role="collapsible">
-            <h1>FTG</h1>
-            <h3>格鬥遊戲（Fighting Game）</h3>
-            <p>玩家操縱螢幕上的自己角色和對手進行近身格鬥。這些角色傾向於設計成實力均衡，我方和敵方角色在某個舞台以數個回合較勁。玩家必需精熟諸如防禦、反擊、進行連段等操作技巧。</p>
-            <div data-role="collapsibleset" data-theme="a" data-content-theme="a" >
-                <div data-role="collapsible">
-                    <h3>遊戲一</h3>
-                <p>I'm the collapsible content for section 1</p>
-                </div>
-                <div data-role="collapsible">
-                    <h3>遊戲二</h3>
-                <p>I'm the collapsible content for section 2</p>
-                </div>
-                <div data-role="collapsible">
-                    <h3>遊戲三</h3>
-                <p>I'm the collapsible content for section 3</p>
-                </div>
-            </div>                      
-        </div>
-        <!-- FTG -->
-        <div role="main" class="ui-content" data-role="collapsible">
-            <h1>MUG</h1>
-            <h3>音樂遊戲（英語：Music Game）</h3>
-            <p>玩家配合音樂與節奏做出動作（依畫面指示按鈕、踏舞步、操作模仿樂器的控制器等）來進行遊戲。通常玩家做出的動作要與節奏吻合，部分作品會有類似血量限制的設定，倘若失誤過多，或者條件未達成，則會強制結束遊戲。</p>
-            <div data-role="collapsibleset" data-theme="a" data-content-theme="a" >
-                <div data-role="collapsible">
-                    <h3>遊戲一</h3>
-                <p>I'm the collapsible content for section 1</p>
-                </div>
-                <div data-role="collapsible">
-                    <h3>遊戲二</h3>
-                <p>I'm the collapsible content for section 2</p>
-                </div>
-                <div data-role="collapsible">
-                    <h3>遊戲三</h3>
-                <p>I'm the collapsible content for section 3</p>
-                </div>
-            </div>                      
-        </div>
-        <!-- MUG -->
+                </div>                      
+            </div>
+            <!-- RCG -->
+            <div role="main" class="ui-content" data-role="collapsible">
+                <h1>FTG</h1>
+                <h3>格鬥遊戲（Fighting Game）</h3>
+                <p>玩家操縱螢幕上的自己角色和對手進行近身格鬥。這些角色傾向於設計成實力均衡，我方和敵方角色在某個舞台以數個回合較勁。玩家必需精熟諸如防禦、反擊、進行連段等操作技巧。</p>
+                <div data-role="collapsibleset" data-theme="a" data-content-theme="a" >
+                    <div data-role="collapsible">
+                        <h3>遊戲一</h3>
+                    <p>I'm the collapsible content for section 1</p>
+                    </div>
+                    <div data-role="collapsible">
+                        <h3>遊戲二</h3>
+                    <p>I'm the collapsible content for section 2</p>
+                    </div>
+                    <div data-role="collapsible">
+                        <h3>遊戲三</h3>
+                    <p>I'm the collapsible content for section 3</p>
+                    </div>
+                </div>                      
+            </div>
+            <!-- FTG -->
+            <div role="main" class="ui-content" data-role="collapsible">
+                <h1>MUG</h1>
+                <h3>音樂遊戲（英語：Music Game）</h3>
+                <p>玩家配合音樂與節奏做出動作（依畫面指示按鈕、踏舞步、操作模仿樂器的控制器等）來進行遊戲。通常玩家做出的動作要與節奏吻合，部分作品會有類似血量限制的設定，倘若失誤過多，或者條件未達成，則會強制結束遊戲。</p>
+                <div data-role="collapsibleset" data-theme="a" data-content-theme="a" >
+                    <div data-role="collapsible">
+                        <h3>遊戲一</h3>
+                    <p>I'm the collapsible content for section 1</p>
+                    </div>
+                    <div data-role="collapsible">
+                        <h3>遊戲二</h3>
+                    <p>I'm the collapsible content for section 2</p>
+                    </div>
+                    <div data-role="collapsible">
+                        <h3>遊戲三</h3>
+                    <p>I'm the collapsible content for section 3</p>
+                    </div>
+                </div>                      
+            </div>
+            <!-- MUG -->
 
-        <div role="main" class="ui-content">
-            <a href="#page01">遊戲種類1</a>
-            <a href="#page03">開發軟體介紹</a>
-            <a href="#page04">開發軟體比較</a>
-            <br>
-            <a href="#page00">回到 主頁面</a>          
-        </div>        
+            <div role="main" class="ui-content">
+                <a href="#page01">遊戲種類1</a>
+                <a href="#page03">開發軟體介紹</a>
+                <a href="#page04">開發軟體比較</a>
+                <br>
+                <a href="#page00">回到 主頁面</a>          
+            </div>
+        </section>
+                
         <!-- /content -->
 
-        <div data-role="footer" data-position="fixed" >
+        <section>
+            <div data-role="footer" data-position="fixed" >
 
-            <h4>Copyright &copy; 2020
-                <br>
-                1108211029@wenzao DCAM
-            </h4>
+                <h4>Copyright &copy; 2020
+                    <br>
+                    1108211029@wenzao DCAM
+                </h4>
 
-        </div><!-- /footer -->
+            </div>
+        </section>
+        <!-- /footer -->
 
     </div><!-- /page -->
 
     <!-- 第三頁 -->
     <div data-role="page" id="page03">
 
-        <div data-role="header">
-            <h1>開發軟體介紹</h1>
-            <a href="#page00" class="ui-btn ui-icon-home ui-btn-icon-notext ui-btn-corner-all">home</a>
-        </div><!-- /header -->
+        <section>
+            <div data-role="header">
+                <h1>開發軟體介紹</h1>
+                <a href="#page00" class="ui-btn ui-icon-home ui-btn-icon-notext ui-btn-corner-all">home</a>
+            </div>
+        </section>
+        <!-- /header -->
 
-        <div role="main" class="ui-content" data-role="collapsible">
-            <h1>Unity</h1>
-            <p>是由Unity Technologies研發的跨平台2D/3D遊戲引擎，可用於開發Windows、MacOS及Linux平台的單機遊戲，PlayStation、Xbox、Wii、任天堂3DS和Switch 等遊戲主機平台的電動遊戲，以及iOS、Android等行動裝置的遊戲。</p>
-            <h5>軟體介紹影片:<a href="https://youtu.be/OZH7GSsLgaE">https://youtu.be/OZH7GSsLgaE</a></h5>
-            <video src=""></video>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/OZH7GSsLgaE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </div>
-        <!-- Unity -->
-        <div role="main" class="ui-content" data-role="collapsible">
-            <h1>Unreal Engine</h1>
-            <p>由Epic Games開發的遊戲引擎。該引擎主要是為了開發第一人稱射擊遊戲而設計，但現在已經被成功地應用於開發潛行類遊戲、格鬥遊戲、角色扮演遊戲等多種不同類型的遊戲。</p>
-            <h5>軟體介紹影片:<a href="https://youtu.be/rcTd_outcew">https://youtu.be/rcTd_outcew</a></h5>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/rcTd_outcew" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </div>
-        <!-- Unreal Engine -->        
-        <div role="main" class="ui-content" data-role="collapsible">
-            <h1>RPG Maker</h1>
-            <p>是一款角色扮演遊戲製作軟體，宗旨為不懂程式設計的一般玩家也能做出RPG遊戲。</p>
-            <h5>軟體介紹影片:<a href="https://www.youtube.com/watch?v=e7cuoAg_YCQ">https://www.youtube.com/watch?v=e7cuoAg_YCQ</a></h5>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/e7cuoAg_YCQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </div>
-        <!-- RPG Maker -->
-
-        <div role="main" class="ui-content">
-            <a href="#page01">遊戲種類1</a>
-            <a href="#page02">遊戲種類2</a>
-            <a href="#page04">開發軟體比較</a>
-            <br>
-            <a href="#page00">回到 主頁面</a>
-        </div>        
+        <section>
+            <div role="main" class="ui-content" data-role="collapsible">
+                <h1>Unity</h1>
+                <p>是由Unity Technologies研發的跨平台2D/3D遊戲引擎，可用於開發Windows、MacOS及Linux平台的單機遊戲，PlayStation、Xbox、Wii、任天堂3DS和Switch 等遊戲主機平台的電動遊戲，以及iOS、Android等行動裝置的遊戲。</p>
+                <h5>軟體介紹影片:<a href="https://youtu.be/OZH7GSsLgaE">https://youtu.be/OZH7GSsLgaE</a></h5>
+                <div class="video-wrapper"><iframe width="560" height="315" src="https://www.youtube.com/embed/OZH7GSsLgaE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                
+            </div>
+            <!-- Unity -->
+            <div role="main" class="ui-content" data-role="collapsible">
+                <h1>Unreal Engine</h1>
+                <p>由Epic Games開發的遊戲引擎。該引擎主要是為了開發第一人稱射擊遊戲而設計，但現在已經被成功地應用於開發潛行類遊戲、格鬥遊戲、角色扮演遊戲等多種不同類型的遊戲。</p>
+                <h5>軟體介紹影片:<a href="https://youtu.be/rcTd_outcew">https://youtu.be/rcTd_outcew</a></h5>
+                <div class="video-wrapper"><iframe width="560" height="315" src="https://www.youtube.com/embed/rcTd_outcew" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                
+            </div>
+            <!-- Unreal Engine -->        
+            <div role="main" class="ui-content" data-role="collapsible">
+                <h1>RPG Maker</h1>
+                <p>是一款角色扮演遊戲製作軟體，宗旨為不懂程式設計的一般玩家也能做出RPG遊戲。</p>
+                <h5>軟體介紹影片:<a href="https://www.youtube.com/watch?v=e7cuoAg_YCQ">https://www.youtube.com/watch?v=e7cuoAg_YCQ</a></h5>
+                <div class="video-wrapper">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/e7cuoAg_YCQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                
+            </div>
+            <!-- RPG Maker -->
+            
+            <div role="main" class="ui-content">
+                <a href="#page01">遊戲種類1</a>
+                <a href="#page02">遊戲種類2</a>
+                <a href="#page04">開發軟體比較</a>
+                <br>
+                <a href="#page00">回到 主頁面</a>
+            </div>
+        </section>
+                
         <!-- /content -->
 
-        <div data-role="footer" data-position="fixed" >
+        <section>
+            <div data-role="footer" data-position="fixed" >
 
-            <h4>Copyright &copy; 2020
-                <br>
-                1108211029@wenzao DCAM
-            </h4>
+                <h4>Copyright &copy; 2020
+                    <br>
+                    1108211029@wenzao DCAM
+                </h4>
 
-        </div><!-- /footer -->
+            </div>
+        </section>
+        <!-- /footer -->
 
     </div><!-- /page -->
     
     <!-- 第四頁 -->
     <div data-role="page" id="page04">
 
-        <div data-role="header">
-            <h1>開發軟體比較</h1>
-            <a href="#page00" class="ui-btn ui-icon-home ui-btn-icon-notext ui-btn-corner-all">home</a>
-        </div><!-- /header -->
+        <section>
+            <div data-role="header">
+                <h1>開發軟體比較</h1>
+                <a href="#page00" class="ui-btn ui-icon-home ui-btn-icon-notext ui-btn-corner-all">home</a>
+            </div>
+        </section>
+        <!-- /header -->
 
+        <section>
+            <div role="main" class="ui-content" data-role="collapsible">
+                <h1>Unity</h1>
+                <p>編輯中...</p>
+                
+            </div>
+            <!-- Unity -->
+            <div role="main" class="ui-content" data-role="collapsible">
+                <h1>Unreal Engine</h1>
+                <p>編輯中...</p>
+                
+            </div>
+            <!-- Unreal Engine -->        
+            <div role="main" class="ui-content" data-role="collapsible">
+                <h1>RPG Maker</h1>
+                <p>編輯中...</p>
+                
+            </div>
 
-
-        <div role="main" class="ui-content">
-            <a href="#page01">遊戲種類1</a>
-            <a href="#page02">遊戲種類2</a>
-            <a href="#page03">開發軟體介紹</a>
-            <br>
-            <a href="#page00">回到 主頁面</a>
-        </div>        
+            <div role="main" class="ui-content">
+                <a href="#page01">遊戲種類1</a>
+                <a href="#page02">遊戲種類2</a>
+                <a href="#page03">開發軟體介紹</a>
+                <br>
+                <a href="#page00">回到 主頁面</a>
+            </div>
+        </section>
+                
         <!-- /content -->
 
-        <div data-role="footer" data-position="fixed" >
+        <section>
+            <div data-role="footer" data-position="fixed" >
 
-            <h4>Copyright &copy; 2020
-                <br>
-                1108211029@wenzao DCAM
-            </h4>
+                <h4>Copyright &copy; 2020
+                    <br>
+                    1108211029@wenzao DCAM
+                </h4>
 
-        </div><!-- /footer -->
+            </div>
+        </section>
+        <!-- /footer -->
 
     </div><!-- /page -->
 </body>
 
-<!-- 遊戲開發
-     軟體比較
-     軟體介紹 -->
 
 </html>
