@@ -4,9 +4,9 @@
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+    <!-- <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
     <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-    <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script> -->
     <title>遊戲種類</title>
     <link rel="apple-touch-icon" sizes="57x57" href="images/icons/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="images/icons/apple-icon-60x60.png">
@@ -28,30 +28,31 @@
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 
-    
-    <!-- <link rel="stylesheet" href="themes/my-custom-theme.css" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="themes/bgcolor.css" />
     <link rel="stylesheet" href="themes/jquery.mobile.icons.min.css" />
-    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile.structure-1.4.5.min.css" /> 
-    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script> 
-    <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script> -->
+    <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile.structure-1.4.5.min.css" /> 
+    <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script> 
+    <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    <!-- jquery-roller -->
 </head>
 
 <body>
 
     <!-- 主頁面 -->
-    <div data-role="page" id="page00">
+    <div class="main" data-role="page" id="page00">
 
         <section>
             <div data-role="header">
                 <h1>遊戲介紹</h1>
-                <a href="#page00" class="ui-btn ui-icon-home ui-btn-icon-notext ui-btn-corner-all">home</a>
             </div>
         </section>
         <!-- /header -->
         <section>
             <div role="main" class="ui-content">
-                <h1>遊戲介紹從這裡開始..</h1>
-                <p>這裡介紹遊戲有哪些種類、開發軟體、開發軟體比較以及其遊戲名</p>            
+                <h1 class="mh1">遊戲介紹從這裡開始..</h1>
+                <p class="mp">這裡介紹遊戲有哪些種類、開發軟體、開發軟體比較以及其遊戲名</p>            
                 <div role="main" class="ui-content" data-role="collapsible">
                     <h1>遊戲種類1</h1>
                     <ul data-role="listview" data-inset="true">
@@ -94,13 +95,13 @@
                     </ul>
                 </div>
                 
-                <div data-role="navbar">
+                <div data-role="navbar" >
                     <ul>
                         <li><a href="#page01" data-icon="bullets">遊戲種類1</a></li>
                         <li><a href="#page02" data-icon="bullets">遊戲種類2</a></li>                    
                     </ul>
                 </div>
-                <div data-role="navbar">
+                <div data-role="navbar" >
                     <ul>
                         <li><a href="#page03" data-icon="bullets">開發軟體介紹</a></li>
                         <li><a href="#page04" data-icon="bullets" data-transition="slidedown">開發軟體比較</a></li>
@@ -125,7 +126,7 @@
     </div><!-- /page -->
 
     <!-- 第一頁 -->
-    <div data-role="page" id="page01" >
+    <div class="bg" data-role="page" id="page01" >
 
         <section>
             <div data-role="header">
@@ -135,7 +136,7 @@
         </section>
         <!-- /header -->
 
-        <section >
+        <section>
             <div role="main" class="ui-content" data-role="collapsible">
                 <h1>ACT</h1>
                 <h3>動作遊戲（Action Game)</h3>
@@ -352,12 +353,24 @@
             </div>
             <!-- SLG -->
 
-            <div role="main" class="ui-content">
+            <!-- <div  class="block" role="main" class="ui-content">
                 <a href="#page02">遊戲種類2</a>
                 <a href="#page03">開發軟體介紹</a>
                 <a href="#page04">開發軟體比較</a>
                 <br>
                 <a href="#page00">回到 主頁面</a>
+            </div> -->
+            <div data-role="navbar" >
+                <ul>
+                    <li><a href="#page02" data-icon="bullets">遊戲種類2</a></li>
+                    <li><a href="#page03" data-icon="bullets">開發軟體介紹</a></li>
+                    <li><a href="#page04" data-icon="bullets">開發軟體比較</a></li>
+                </ul>
+            </div>
+            <div data-role="navbar" >
+                <ul>
+                    <li><a href="#page00" data-icon="bullets" data-transition="slidedown">回到 主頁面</a></li>
+                </ul>
             </div>
         </section>
         
@@ -378,7 +391,7 @@
     </div><!-- /page -->
 
     <!-- 第二頁 -->
-    <div data-role="page" id="page02">
+    <div class="bg2" data-role="page" id="page02">
 
         <section>
             <div data-role="header">
@@ -549,12 +562,18 @@
             </div>
             <!-- MUG -->
 
-            <div role="main" class="ui-content">
-                <a href="#page01">遊戲種類1</a>
-                <a href="#page03">開發軟體介紹</a>
-                <a href="#page04">開發軟體比較</a>
-                <br>
-                <a href="#page00">回到 主頁面</a>          
+            
+            <div data-role="navbar" >
+                <ul>
+                    <li><a href="#page01" data-icon="bullets">遊戲種類1</a></li>
+                    <li><a href="#page03" data-icon="bullets">開發軟體介紹</a></li>
+                    <li><a href="#page04" data-icon="bullets">開發軟體比較</a></li>
+                </ul>
+            </div>
+            <div data-role="navbar" >
+                <ul>
+                    <li><a href="#page00" data-icon="bullets" data-transition="slidedown">回到 主頁面</a></li>
+                </ul>
             </div>
         </section>
                 
@@ -575,7 +594,7 @@
     </div><!-- /page -->
 
     <!-- 第三頁 -->
-    <div data-role="page" id="page03">
+    <div class="bg3" data-role="page" id="page03">
 
         <section>
             <div data-role="header">
@@ -617,12 +636,18 @@
             </div>
             <!-- RPG Maker -->
             
-            <div role="main" class="ui-content">
-                <a href="#page01">遊戲種類1</a>
-                <a href="#page02">遊戲種類2</a>
-                <a href="#page04">開發軟體比較</a>
-                <br>
-                <a href="#page00">回到 主頁面</a>
+            
+            <div data-role="navbar" >
+                <ul>
+                    <li><a href="#page01" data-icon="bullets">遊戲種類1</a></li>
+                    <li><a href="#page02" data-icon="bullets">遊戲種類2</a></li>
+                    <li><a href="#page04" data-icon="bullets">開發軟體比較</a></li>
+                </ul>
+            </div>
+            <div data-role="navbar" >
+                <ul>
+                    <li><a href="#page00" data-icon="bullets" data-transition="slidedown">回到 主頁面</a></li>
+                </ul>
             </div>
         </section>
                 
@@ -643,7 +668,7 @@
     </div><!-- /page -->
     
     <!-- 第四頁 -->
-    <div data-role="page" id="page04">
+    <div class="bg4" data-role="page" id="page04">
 
         <section>
             <div data-role="header">
@@ -672,12 +697,17 @@
                 
             </div>
 
-            <div role="main" class="ui-content">
-                <a href="#page01">遊戲種類1</a>
-                <a href="#page02">遊戲種類2</a>
-                <a href="#page03">開發軟體介紹</a>
-                <br>
-                <a href="#page00">回到 主頁面</a>
+            <div data-role="navbar" >
+                <ul>
+                    <li><a href="#page01" data-icon="bullets">遊戲種類1</a></li>
+                    <li><a href="#page02" data-icon="bullets">遊戲種類2</a></li>
+                    <li><a href="#page03" data-icon="bullets">開發軟體介紹</a></li>
+                </ul>
+            </div>
+            <div data-role="navbar" >
+                <ul>
+                    <li><a href="#page00" data-icon="bullets" data-transition="slidedown">回到 主頁面</a></li>
+                </ul>
             </div>
         </section>
                 

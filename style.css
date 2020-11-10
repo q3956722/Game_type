@@ -21,10 +21,60 @@ img{
     padding-bottom: 10%;
     overflow: hidden;
 }
-/* .bg2{
-    background-image: url(images/bg.jpg);
+.mh1{
+    background-color: rgba(235, 235, 235, 0.76);
+    text-align: center;
+    border-radius: 10px;
+    height: 5vh;
+}
+.mp{
+    background-color: rgba(235, 235, 235, 0.76);
+    border-radius: 10px;
+}
+.main{
+    background-image: url(images/main.png);
+    background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment:scroll;
-    width: 100%;
-} */
+    max-width: 100%;
+}
+.bg{
+    background-image: url(images/bg1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment:scroll;
+    max-width: 100%;
+}
+.bg2{
+    background-image: url(images/bg2.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment:scroll;
+    max-width: 100%;
+}
+.bg3{
+    background-image: url(images/bg3.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment:scroll;
+    max-width: 100%;
+}
+.bg4{
+    background-image: url(images/bg4.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment:scroll;
+    max-width: 100%;
+}
+.block{
+    max-width: 30%;
+
+    align-content: center;
+    text-align: center;
+    border-radius: 10px;
+}
